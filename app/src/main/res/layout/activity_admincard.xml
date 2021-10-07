@@ -42,13 +42,13 @@
                 android:background="@drawable/admin" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textViewadmin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ADMIN"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24"
+                android:textSize="24dp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -87,13 +87,13 @@
                         android:background="@drawable/baseline_badge_black_48" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewadminuserlog"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="User Log"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13"
+                        android:textSize="13dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -118,13 +118,13 @@
                         android:background="@drawable/outline_post_add_black_24dp" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewadminupdateinfo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Update Info"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13"
+                        android:textSize="13dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -157,13 +157,13 @@
                         android:background="@drawable/baseline_plagiarism_black_48" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewadminviewattendance"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="View Attendance"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13"
+                        android:textSize="13dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -188,13 +188,13 @@
                         android:background="@drawable/baseline_person_search_black_20" />
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewadminviewusers"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="8dp"
                         android:text="View Users"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13"
+                        android:textSize="13dp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

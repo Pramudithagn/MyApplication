@@ -38,7 +38,7 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/#FFFFFF">
+                app:cardBackgroundColor="@color/white">
                 <LinearLayout
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -51,7 +51,7 @@
                         android:background="@drawable/admin"/>
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewmainadmin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="ADMIN"
@@ -66,7 +66,7 @@
                 android:layout_height="150dp"
                 app:cardCornerRadius="20dp"
                 android:layout_margin="10dp"
-                app:cardBackgroundColor="@color/#FFFFFF">
+                app:cardBackgroundColor="@color/white">
                 <LinearLayout
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                         android:background="@drawable/dcfdcd"/>
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textViewmainstudent"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="STUDENT"
@@ -100,7 +100,7 @@
             android:layout_height="150dp"
             app:cardCornerRadius="20dp"
             android:layout_margin="10dp"
-            app:cardBackgroundColor="@color/#FFFFFF">
+            app:cardBackgroundColor="@color/white">
             <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
@@ -112,7 +112,7 @@
                     android:layout_gravity="center"
                     android:background="@drawable/outline_supervisor_account_black_24dp"/>
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textViewmainacademic"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="ACADEMIC"
@@ -126,7 +126,7 @@
         android:layout_height="150dp"
         app:cardCornerRadius="20dp"
         android:layout_margin="10dp"
-        app:cardBackgroundColor="@color/#FFFFFF">
+        app:cardBackgroundColor="@color/white">
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -138,7 +138,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/baseline_manage_accounts_black_48"/>
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewmainnonacademic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="NON-ACADEMIC"
@@ -159,7 +159,7 @@
             android:layout_height="150dp"
             app:cardCornerRadius="20dp"
             android:layout_margin="10dp"
-            app:cardBackgroundColor="@color/#FFFFFF">
+            app:cardBackgroundColor="@color/white">
             <LinearLayout
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
@@ -171,7 +171,7 @@
                     android:layout_gravity="center"
                     android:background="@drawable/outline_forum_black_24dp"/>
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textViewmainchat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="CHAT FORUM"
@@ -185,7 +185,7 @@
         android:layout_height="150dp"
         app:cardCornerRadius="20dp"
         android:layout_margin="10dp"
-        app:cardBackgroundColor="@color/#FFFFFF">
+        app:cardBackgroundColor="@color/white">
         <LinearLayout
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
@@ -197,7 +197,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/outline_help_black_24dp"/>
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewmaininfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="APP INFO"
