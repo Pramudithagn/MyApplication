@@ -25,7 +25,7 @@
             android:name=".acalog"
             android:exported="true" />
         <activity
-            android:name=".ui.login.studentlogin"
+            android:name=".stulog"
             android:exported="true"
             android:label="@string/title_activity_studentlogin" />
         <activity
@@ -41,6 +41,9 @@
             android:name=".ui.login.LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login" />
+        <activity
+            android:name=".nonacalogin"
+            android:exported="true" />
         <activity
             android:name=".MainCardView"
             android:exported="true" />
