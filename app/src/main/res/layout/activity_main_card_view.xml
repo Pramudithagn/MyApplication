@@ -16,6 +16,7 @@
 
         <ImageView
             android:id="@+id/imageView4"
+            android:contentDescription="@string/app_name"
             android:layout_width="309dp"
             android:layout_height="139dp"
             app:srcCompat="@drawable/main2" />
@@ -43,9 +44,11 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables"
                     android:layout_gravity="center">
                     <ImageView
                         android:layout_width="100dp"
+                        android:contentDescription="@string/app_name"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
                         android:background="@drawable/admin"/>
@@ -54,10 +57,10 @@
                         android:id="@+id/textViewmainadmin"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="ADMIN"
+                        android:text="@string/admin"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13dp"
+                        android:textSize="13sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -71,10 +74,12 @@
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
                     android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables"
                     android:layout_gravity="center">
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
+                        android:contentDescription="@string/app_name"
                         android:layout_gravity="center"
                         android:background="@drawable/dcfdcd"/>
 
@@ -82,10 +87,10 @@
                         android:id="@+id/textViewmainstudent"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="STUDENT"
+                        android:text="@string/student"
                         android:textAlignment="center"
                         android:textColor="@color/black"
-                        android:textSize="13dp"
+                        android:textSize="13sp"
                         android:textStyle="bold" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -105,19 +110,21 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables"
                 android:layout_gravity="center">
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
                     android:background="@drawable/outline_supervisor_account_black_24dp"/>
                 <TextView
                     android:id="@+id/textViewmainacademic"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ACADEMIC"
+                    android:text="@string/academic"
                     android:textColor="@color/black"
-                    android:textSize="13dp"
+                    android:textSize="13sp"
                     android:textStyle="bold"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -131,19 +138,21 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables"
             android:layout_gravity="center">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
+                android:contentDescription="@string/app_name"
                 android:layout_gravity="center"
                 android:background="@drawable/baseline_manage_accounts_black_48"/>
             <TextView
                 android:id="@+id/textViewmainnonacademic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="NON-ACADEMIC"
+                android:text="@string/non_academic"
                 android:textColor="@color/black"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textStyle="bold"
                 android:textAlignment="center"/>
         </LinearLayout>
@@ -164,19 +173,21 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables"
                 android:layout_gravity="center">
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
                     android:background="@drawable/outline_forum_black_24dp"/>
                 <TextView
                     android:id="@+id/textViewmainchat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="CHAT FORUM"
+                    android:text="@string/chat_forum"
                     android:textColor="@color/black"
-                    android:textSize="13dp"
+                    android:textSize="13sp"
                     android:textStyle="bold"
                     android:textAlignment="center"/>
             </LinearLayout>
@@ -190,19 +201,21 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables"
             android:layout_gravity="center">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
                 android:background="@drawable/outline_help_black_24dp"/>
             <TextView
                 android:id="@+id/textViewmaininfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="APP INFO"
+                android:text="@string/app_info"
                 android:textColor="@color/black"
-                android:textSize="13dp"
+                android:textSize="13sp"
                 android:textStyle="bold"
                 android:textAlignment="center"/>
         </LinearLayout>

@@ -10,4 +10,15 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_studentlogin">studentlogin</string>
+    <string name="non_academic_card">NON-ACADEMIC</string>
+    <string name="take_attendance">Take Attendance</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="mark_leave">Mark Leave</string>
+    <string name="view_users">View Users</string>
+    <string name="admin">ADMIN</string>
+    <string name="student">STUDENT</string>
+    <string name="academic">ACADEMIC</string>
+    <string name="non_academic">NONACADEMIC</string>
+    <string name="chat_forum">CHAT FORUM</string>
+    <string name="app_info">APP INFO</string>
 </resources>

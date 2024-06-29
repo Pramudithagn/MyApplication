@@ -13,7 +13,8 @@
         android:layout_height="68dp"
         app:srcCompat="@drawable/baseline_navigate_before_black_18"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteY="30dp"
+        tools:ignore="MissingConstraints" />
     <androidx.cardview.widget.CardView
         android:layout_width="247dp"
         android:layout_height="207dp"
@@ -21,7 +22,8 @@
         app:cardBackgroundColor="#D2FFDD"
         app:cardCornerRadius="80dp"
         tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="87dp">
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -42,8 +44,8 @@
                 android:text="STUDENT"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="24"
-                android:textStyle="bold" />
+                android:textSize="24dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -53,7 +55,8 @@
         android:layout_height="81dp"
         app:srcCompat="@drawable/rectangle1"
         tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -61,7 +64,8 @@
         android:layout_height="81dp"
         app:srcCompat="@drawable/rectangle1"
         tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="442dp" />
+        tools:layout_editor_absoluteY="442dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -69,7 +73,8 @@
         android:layout_height="wrap_content"
         android:text="UserName"
         tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="367dp" />
+        tools:layout_editor_absoluteY="367dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
@@ -77,7 +82,8 @@
         android:layout_height="wrap_content"
         android:text="Password"
         tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="467dp" />
+        tools:layout_editor_absoluteY="467dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -86,7 +92,8 @@
         android:layout_gravity="center"
         android:background="@drawable/dcfdcd"
         tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="355dp" />
+        tools:layout_editor_absoluteY="355dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -94,7 +101,8 @@
         android:layout_height="44dp"
         app:srcCompat="@drawable/baseline_lock_black_24"
         tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="455dp" />
+        tools:layout_editor_absoluteY="455dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -102,7 +110,8 @@
         android:layout_height="68dp"
         app:srcCompat="@drawable/baseline_navigate_before_black_18"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="30dp" />
+        tools:layout_editor_absoluteY="30dp"
+        tools:ignore="MissingConstraints" />
 
 
     <Button
@@ -114,7 +123,8 @@
         android:textColor="#7BD8AB"
         android:textSize="17sp"
         tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="542dp" />
+        tools:layout_editor_absoluteY="542dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView5"
@@ -124,5 +134,6 @@
         android:textStyle="bold"
         android:textColor="#7BD8AB"
         tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="592dp" />
+        tools:layout_editor_absoluteY="592dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
